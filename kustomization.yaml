@@ -1,0 +1,6 @@
+# What THIS repo delivers: the template CR, nothing else (no task text —
+# the pipeline is deterministic-only).
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - template.yaml
